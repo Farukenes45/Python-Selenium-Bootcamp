@@ -16,56 +16,83 @@
 
 
 # ------------------------------ Öğrenci Ekleme ----------------------
-ogrenci_listesi = []                
+student_list = []                
 
 def addStudent():
-    isim_soyisim = input("Eklemek istediğiniz öğrencinin isim ve soyismini girin: ")
-    ogrenci_listesi.append(isim_soyisim)
-    #return ogrenci_listesi
-    print(ogrenci_listesi)
+    name_surname = input("Eklemek istediğiniz öğrencinin adını ve soyadını girin: ")
+    student_list.append(name_surname)
+    print(student_list)
 
 addStudent()
 addStudent()
 
-# ------------------------------ Öğrenci Silme ----------------------
+
+# ------------------------------ Öğrenci Silme (for döngüsü) ----------------------
 def deleteStudent():
-    isim_soyisim = input("Silmek istediğiniz öğrencinin adını girin: ")
-    for ogrenci in ogrenci_listesi:
-        if isim_soyisim == ogrenci:
-            ogrenci_listesi.remove(isim_soyisim)
-            print(f"Silinen Öğrencinin adı: {isim_soyisim}")
+    name_surname = input("Silmek istediğiniz öğrencinin adını girin: ")
+    for student in student_list:
+        if name_surname == student:
+            student_list.remove(name_surname)
+            print(f"--> Silinen Öğrencinin adı: {name_surname}")
+            print(f"--> Güncel Liste: {student_list}")
+        else:
+            print("--> Böyle bir kullanıcı bulunamadı !!")
 
 deleteStudent()
 
-# ------------------------------ Çoklu Öğrenci Ekleme ----------------------
+# ------------------------------ Çoklu Öğrenci Ekleme (while döngüsü) ----------------------
 def multipleAddStudent():
-    adet = int(input("Kaç adet öğrenci eklemek istersiniz ?:"))
-    sayac = 0
-    while sayac < adet:
-        isim_soyisim =input("Eklemek istediğiniz öğrencinin adı ve soyadını girin:")
-        ogrenci_listesi.append(isim_soyisim)
-        #print(ogrenci_listesi)
-        sayac+=1
+    quantity = int(input("Kaç adet öğrenci eklemek istersiniz ?: "))
+    counter = 0
+    while counter < quantity:
+        name_surname =input("Eklemek istediğiniz öğrencinin adı ve soyadını girin: ")
+        student_list.append(name_surname)
+        #print(student_list)
+        counter+=1
         
 multipleAddStudent()
-print(f"--> Güncel Kayıtlı Öğrenci Listesi:{ogrenci_listesi}")
+print(f"--> Güncel Kayıtlı Öğrenci Listesi: {student_list}")
 
-# name,surname = input("ad soyad girin")
-# ogrenci = addStudent()
-# print("17.satır: ", ogrenci)
-# print(ogrenci_listesi)
-# # print(ogrenci)
-# print(len(ogrenci_listesi))
-
-
-
-# listedeki tüm öğrencileri tek tek yazdıran fonksiyon
-# def ogrencileriYazdir():
-#     for kayitli_ogrenci in ogrenci_listesi:
-#         print(kayitli_ogrenci)
-#         return kayitli_ogrenci
+# ---------------------------- Öğrencileri Tek Tek Yazdırma ----------------------
+def printStudent():
+    for registered_student in student_list:
+        print(registered_student)
+        # return registered_student
     
-# kayitli_ogrenciler = ogrencileriYazdir()
+# registered_student = printStudent()
+#print(registered_student)
+printStudent()
 
+# ----------------------------- Öğrenci Numarası Öğrenme ----------------------
+def learnStudentNumber():
+    
+    name_surname = input("Numarasını öğrenmek istediğiniz öğrencinin adı ve soyadını girin: ")
 
+    if name_surname in student_list:                                                            # aldığımız isim öğrenci listesinde var mı yokmu kontrolü yaptık
+        for student in student_list:                                                            # var ise for döngüsü ile listemizi gezdik
+            if name_surname == student:                                                         # girmiş olduğumuz isim bilgisi ile for döngüsündeki dönen değer eşitse
+                studentNumber = student_list.index(student)                                     # ogrenci_listesindeki ogrencinin indexini alıp number isimli değişkene atadık
+                print(f"--> {name_surname} isimli öğrencinin numarası: {studentNumber}")
+    else:
+        print("Böyle bir kullanıcı bulunamadı !!")
+        print(f"Güncel Liste --> {student_list}")    
 
+learnStudentNumber()
+learnStudentNumber()
+learnStudentNumber()
+learnStudentNumber()
+
+# ----------------------------- Çoklu Öğrenci Silme (for döngüsü) ----------------------
+def multipleDeleteStudent():
+    quantity = int(input("Listeden kaç öğrenci silmek istiyorsunuz ?:"))                        # silinecek öğrenci adetini aldık
+    if quantity <= len(student_list):                                                           # adet sayısı listemizdeki sayıdan küçük veya eşitmi
+        for qty in range(quantity):                                                 
+            name_surname = input("Silmek istediğiniz öğrencilerin adını ve soyadını girin: ")
+            if name_surname in student_list:
+                student_list.remove(name_surname)
+                print(f"--> Güncel Liste: {student_list} ")
+    else:                                                                                       # girilen adet sayısı listedeki öğrenci sayısından fazla olamaz
+        print("--> Girdiğiniz adet sayısı listedeki öğrenci sayısından fazla , tekrar deneyin")
+        print(f"--> Listedeki toplam öğrenci sayısı: {len(student_list)}")
+
+multipleDeleteStudent()
