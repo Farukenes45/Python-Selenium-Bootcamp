@@ -1,3 +1,37 @@
+# liste tanımlama
+krediler = ["Hızlı Kredi", "Maaşını Halkbank'tan alanlara özel", "Mutlu emekli ihtiyaç kredisi"]
+
+# Listenin yazdırılması ve elemanlara erişim
+print(krediler)
+print(krediler[0])                         # Hızlı Kredi
+print(krediler[1])                         # Maaşını Halkbank'tan alanlara özel
+print(krediler[2])                         # Mutlu emekli ihtiyaç kredisi
+
+
+print(len(krediler))                        # Listenin uzunluğu
+
+# Listenin bir elemanının değiştirilmesi ve tekrar yazdırılması
+krediler[0] = "Çabuk Kredi"                 # 0. indisteki değeri değiştirdik
+print(krediler)
+print(krediler[2])
+
+
+for kredi in krediler:
+    print("<option>" + kredi + "</option>")
+
+for i in range(len(krediler)):
+    print(krediler[i])
+
+for i in range(3, 10): 
+    print(i)
+
+for i in range(0, 11, 2): 
+    print(i)
+
+
+
+
+# 2. Canlı Dersten Bazı Notlar
 
 # string interpolation
 vade = int(input("istediğiniz vade yi belirtin: "))
