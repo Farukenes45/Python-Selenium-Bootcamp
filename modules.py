@@ -7,7 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 # time modülünden sleep import et
 from time import sleep
 
-# By modulu verileri daha kolay alamaya yarar işimizi kolaylaştırır
+# By modulu verileri daha kolay alamaya yarar
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -36,22 +36,8 @@ firstResult = driver.find_element(By.XPATH,"/html/body/div[7]/div/div[11]/div/di
 firstResult.click()
 courses = driver.find_elements(By.CLASS_NAME,"course-listing")
 print(f"kodlamaio sitesinde şu anda {len(courses)} adet kurs var")
-# 10 sn uyu(bekle)
-# sleep(10)
 
-# google ekranımızın açılıp kapanmaması için sonsuz döngü oluşturduk
-# kod buraya gelince sürekli çalışacağından sayfa kapanmaz
 while True:
     continue
-# HTML LOCATORS
-# en tepeden başlayarak ilgilenen elemente kadar yolu belirtir
-# full xpath
-# /html/body/div[7]/div/div[11]/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div/div[1]/a
 
-# xpath
-# //*[@id='rso']/div[1]/div/div/div/div/div/div/div[1]/a
-
-# find element ilk bulduğu locatörü ü döner
-# fine elements liste halinde döner bulunan kaç adet eleman varsa
-#geriye liste halinde döner
 
