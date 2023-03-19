@@ -12,9 +12,6 @@ class Human:
     def walk(self):
         print(f"{self.name} is walking")
 
-# instance -> örnek
-# def __init kısmı Human classından nesne üretirken ilk o çalışır
-# Human() dediğimizde classı başlat 
 human = Human("Enes")
 human.talk("Merhaba")
 

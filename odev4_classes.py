@@ -1,5 +1,5 @@
 class Matematik:
-    # self ten kasıt matematiğin kendisi self = kendi
+    # self ten kasıt matematiğin kendisi self
     # constructor - yapıcı blok
     def __init__(self,sayi1,sayi2):                     # Matematik() parantezinin çalışmasını init sağlar
         self.s1 = sayi1
