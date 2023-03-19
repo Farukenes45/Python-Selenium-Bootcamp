@@ -4,7 +4,7 @@ class Matematik:
     def __init__(self,sayi1,sayi2):                     # Matematik() parantezinin çalışmasını init sağlar
         self.s1 = sayi1
         self.s2 = sayi2
-        print("Matematik başladı (referans oluştu)")        
+        #print("Matematik başladı (referans oluştu)")        
        
     def topla(self):
         return self.s1 + self.s2
