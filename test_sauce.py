@@ -7,7 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 # time modülünden sleep import et
 from time import sleep
 
-# By modulu verileri daha kolay alamaya yarar
+# By modulu verileri daha kolay almaya yarar
 from selenium.webdriver.common.by import By
 
 class Test_Sauce:
