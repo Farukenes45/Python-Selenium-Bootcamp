@@ -10,6 +10,7 @@ from pathlib import Path
 from datetime import date
 import openpyxl
 
+
 class Test_Sauce_Demo:
 
     # her testten önce çağrılır
@@ -46,8 +47,7 @@ class Test_Sauce_Demo:
         self.driver.save_screenshot(f"{self.folderPath}/test_empty_username_password_{username}_{password}.png")
 
         assert error_message.text == "Epic sadface: Username is required"
-
-             
+    
     # Test Case2: Sadece şifre alanı boş geçildiğinde uyarı mesajı olarak "Epic sadface: Password is required" gösterilmelidir.
     @pytest.mark.parametrize("username,password",[("standard_user" , "")])
     def test_empty_password(self,username,password):
