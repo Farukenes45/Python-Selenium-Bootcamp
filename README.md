@@ -31,11 +31,21 @@ Yakalanan hatalar ve uyarılar sayesinde daha sağlıklı ve başarılı testler
 
 # 5.Gün Ödev2 Ekran Görüntüleri
 
-![test_locked_out_user_locked_out_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984364-1b5ec609-91b8-4824-838e-4b9ee9eb09da.png)
-![test_shopping_cart_problem_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984375-0c8a8a47-9152-4277-97b4-8d10e60e9196.png)
-![test_successfull_login_standard_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984384-a86a387c-26c4-4865-b688-68872a8d1f9c.png)
-![test](https://user-images.githubusercontent.com/119695278/228984392-5989ec59-15e3-4929-a5e7-e32ee5c726f8.PNG)
-![test_add_to_cart_problem_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984399-1354b5f8-beb6-47f2-9a47-203e5fcedb65.png)
-![test_close_buton_icon_close_icon_test_close-button](https://user-images.githubusercontent.com/119695278/228984406-c8722462-85d8-4904-80d5-6b58bb3c79b3.png)
-![test_empty_password_standard_user_](https://user-images.githubusercontent.com/119695278/228984412-aa6f9107-1a86-4c9d-93c6-9fcb63f5284c.png)
 ![test_empty_username_password__](https://user-images.githubusercontent.com/119695278/228984416-dff5f41d-3078-4e63-a9a5-40ce97166fe6.png)
+![test_empty_password_standard_user_](https://user-images.githubusercontent.com/119695278/228984412-aa6f9107-1a86-4c9d-93c6-9fcb63f5284c.png)
+![test_locked_out_user_locked_out_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984364-1b5ec609-91b8-4824-838e-4b9ee9eb09da.png)
+![test_close_buton_icon_close_icon_test_close-button](https://user-images.githubusercontent.com/119695278/228984406-c8722462-85d8-4904-80d5-6b58bb3c79b3.png)
+![test](https://user-images.githubusercontent.com/119695278/228984392-5989ec59-15e3-4929-a5e7-e32ee5c726f8.PNG)
+![test_successfull_login_standard_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984384-a86a387c-26c4-4865-b688-68872a8d1f9c.png)
+![test_shopping_cart_problem_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984375-0c8a8a47-9152-4277-97b4-8d10e60e9196.png)
+![test_add_to_cart_problem_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984399-1354b5f8-beb6-47f2-9a47-203e5fcedb65.png)
+
+
+
+
+
+
+
+
+
+
