@@ -28,3 +28,5 @@ Yakalanan hatalar ve uyarılar sayesinde daha sağlıklı ve başarılı testler
 @pytest.mark.timeout = Bir testin belirli bir süre içinde çalışmasını sağlar ve belirtilen sürenin üzerine çıktığında testi durdurur.
 
 @pytest.mark.usefixtures = Test fonksiyonlarına belirli bir fixture otomatik olarak eklemek için kullanılır.
+
+# 5.Gün Ödev2 Ekran Görüntüleri
