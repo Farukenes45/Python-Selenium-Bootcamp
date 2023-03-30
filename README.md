@@ -37,8 +37,9 @@ Yakalanan hatalar ve uyarılar sayesinde daha sağlıklı ve başarılı testler
 ![test_locked_out_user_locked_out_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984364-1b5ec609-91b8-4824-838e-4b9ee9eb09da.png)
 ![test_close_buton_icon_close_icon_test_close-button](https://user-images.githubusercontent.com/119695278/228984406-c8722462-85d8-4904-80d5-6b58bb3c79b3.png)
 ![test_successfull_login_standard_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984384-a86a387c-26c4-4865-b688-68872a8d1f9c.png)
-![test_shopping_cart_problem_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984375-0c8a8a47-9152-4277-97b4-8d10e60e9196.png)
 ![test_add_to_cart_problem_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984399-1354b5f8-beb6-47f2-9a47-203e5fcedb65.png)
+![test_shopping_cart_problem_user_secret_sauce](https://user-images.githubusercontent.com/119695278/228984375-0c8a8a47-9152-4277-97b4-8d10e60e9196.png)
+
 
 
 
