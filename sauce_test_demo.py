@@ -52,7 +52,7 @@ class Test_DemoClass:
             data.append(tuple_data)
         return data
 
-    #  bu testi geç 
+    # bu testi geç 
     # @pytest.mark.skip()
     # parametrize fonksiyonu içerisine verdiğimiz parametreleri ve bunlara karşılık gelen değerleri dener
     
