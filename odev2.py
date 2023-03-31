@@ -30,7 +30,6 @@ for i in range(0, 11, 2):
 
 
 
-
 # 2. Canlı Dersten Bazı Notlar
 
 # string interpolation
