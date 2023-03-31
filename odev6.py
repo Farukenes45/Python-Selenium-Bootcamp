@@ -82,10 +82,10 @@ class SauceDemoTest:
         print(f"Toplam ürün sayısı: {len(self.product)}")
 
 
-# SauceDemoTest().test_empty_username_and_password()            # test case1
-# SauceDemoTest().test_empty_password()                         # test case2
-# SauceDemoTest().test_locked_out_user()                        # test case3
-# SauceDemoTest().close_buton_icon()                            # test case4
+SauceDemoTest().test_empty_username_and_password()            # test case1
+SauceDemoTest().test_empty_password()                         # test case2
+SauceDemoTest().test_locked_out_user()                        # test case3
+SauceDemoTest().close_buton_icon()                            # test case4
 SauceDemoTest().test_successfull_login()                      # test case5 and 6
 
 while True:
