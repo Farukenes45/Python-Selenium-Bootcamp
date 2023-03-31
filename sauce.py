@@ -10,6 +10,7 @@ from time import sleep
 # By modulu verileri daha kolay almaya yarar
 from selenium.webdriver.common.by import By
 
+
 class Test_Sauce:
     def test_invalid_login(self):
         driver = webdriver.Chrome(ChromeDriverManager().install())
