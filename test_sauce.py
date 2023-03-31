@@ -94,7 +94,7 @@ class Test_Sauce_Demo:
      
     # Test Case4: Kullanıcı adı ve şifre alanları boş geçildiğinde bu iki inputun yanında da kırmızı "X" ikonu çıkmalıdır.
     # Daha sonra aşağıda çıkan uyarı mesajının kapatma butonuna tıklandığında bu "X" ikonları kaybolmalıdır.
-    @pytest.mark.parametrize("username,password",[("close_icon_test","close-button")])
+    @pytest.mark.parametrize("username,password",[("close_icon_test","close_button")])
     def test_close_buton_icon(self,username,password):
 
         self.wait_for_element_visible((By.ID,"user-name"))
