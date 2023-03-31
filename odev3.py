@@ -14,7 +14,6 @@
 
 # Ödevde kullanacağınız döngülerin bir tanesi for bir tanesi while döngüsü olması istenmektedir.
 
-
 # ------------------------------ Öğrenci Ekleme ----------------------
 student_list = []                
 
