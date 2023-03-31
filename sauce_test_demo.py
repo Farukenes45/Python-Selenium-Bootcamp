@@ -12,7 +12,6 @@ import openpyxl
 from constants import globalConstants
 
 class Test_DemoClass:
-
     # her testten önce çağrılır
     def setup_method(self):
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
