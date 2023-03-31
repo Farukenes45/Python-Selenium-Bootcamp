@@ -135,7 +135,6 @@ class Test_Sauce_Demo:
         
         assert error_message.text == "Epic sadface: Username and password do not match any user in this service"
 
-
     # Test Case5: Kullanıcı adı "standard_user" şifre "secret_sauce" gönderildiğinde kullanıcı "/inventory.html" sayfasına gönderilmelidir.
     # Giriş yapıldıktan sonra kullanıcıya gösterilen ürün sayısı "6" adet olmalıdır.
     @pytest.mark.parametrize("username,password",[("standard_user" , "secret_sauce")])
