@@ -50,12 +50,6 @@ class Test_Sauce:
         # selenium içerisinde javascript kodu çalıştırmak istersek
         # ekranı 0 a 500 konumuna kaydır 
         self.driver.execute_script("window.scrollTo(0,500)")
-        
-
-
-
-
-
 
 testClass = Test_Sauce()
 testClass.test_invalid_login()
