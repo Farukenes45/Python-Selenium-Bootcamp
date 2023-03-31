@@ -1,5 +1,5 @@
 
-# PYTEST DECORATORS
+# PYTEST DECORATORS ( 5.Gün Ödev-1 )
 
 Dekoratör, Python'da kullanıcının yapısını değiştirmeden var olan bir nesneye yeni işlevler eklemesine izin veren bir tasarım modelidir.
 Dekoratörler genellikle dekore etmek istediğiniz bir fonksiyonun tanımından önce çağrılır.
