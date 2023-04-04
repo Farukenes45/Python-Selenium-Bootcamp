@@ -10,7 +10,6 @@ from pathlib import Path
 from datetime import date
 import openpyxl
 
-
 class Test_Sauce_Demo:
 
     # her testten önce çağrılır
