@@ -162,11 +162,12 @@ class Test_Sauce_Demo:
 
         self.driver.save_screenshot(f"{self.folderPath}/test_remove_product.png")
         
+        # checkout butonu
         checkout_button = self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"checkout\"]")
         checkout_button.click()
 
         self.driver.save_screenshot(f"{self.folderPath}/checkout_button_clicked.png")
-
+        # information kısmı
         self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"firstName\"]").click()
         self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"firstName\"]").send_keys("faruk")
 
@@ -177,12 +178,12 @@ class Test_Sauce_Demo:
         self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"postalCode\"]").send_keys("454545")
         
         self.driver.save_screenshot(f"{self.folderPath}/information.png")
-
+        # continue butonu
         self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"continue\"]").click()
-
+        # finish butonu
         self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"finish\"]").click()
         self.driver.save_screenshot(f"{self.folderPath}/finish.png")
-
+        # back home butonu
         self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"back-to-products\"]").click()
         
     # elemanların görünür olması için gereken bekleme süresi
